@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
@@ -13,7 +12,8 @@
         <img
           id="header-img"
           src="https://cdn.pixabay.com/photo/2016/06/09/18/36/logo-1446293_1280.png"
-          alt="logo"
+          alt="Company Logo"
+          width="100"
         />
         <nav id="nav-bar">
           <ul>
@@ -25,37 +25,55 @@
       </header>
 
       <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="username">Username</label>
         <input
           id="username"
           name="username"
-          type="tex"
+          type="text"
           placeholder="Username"
+          required
         />
-        <input id="email" name="email" type="email" placeholder="Email" />
+
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+
+        <label for="password">Password</label>
         <input
           id="password"
           name="password"
           type="password"
           placeholder="Password"
+          required
         />
+
+        <label for="password2">Confirm Password</label>
         <input
           id="password2"
           name="password2"
           type="password"
-          placeholder="Password2"
+          placeholder="Confirm Password"
+          required
         />
-        <input id="submit" type="submit" value="Click" />
+
+        <input id="submit" type="submit" value="Register" />
       </form>
 
       <iframe
         id="video"
-        width="420"
+        width="560"
         height="315"
-        src="https://www.youtube.com/watch?v=4RcThoRG46c"
-      >
-      </iframe>
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
 
-      <
       <section id="product">
         <h2>Innovative SmartWatch</h2>
         <p>
